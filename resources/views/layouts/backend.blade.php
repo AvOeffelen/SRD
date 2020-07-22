@@ -24,7 +24,7 @@
         <link rel="stylesheet" id="css-main" href="{{ mix('css/dashmix.css') }}">
 
         <!-- You can include a specific file from public/css/themes/ folder to alter the default color theme of the template. eg: -->
-        <!-- <link rel="stylesheet" id="css-theme" href="{{ mix('css/themes/xwork.css') }}"> -->
+        <link rel="stylesheet" id="css-theme" href="{{ mix('css/themes/xdream.css') }}">
         @yield('css_after')
 
         <!-- Scripts -->
@@ -79,7 +79,7 @@
             'main-content-boxed'                        Full width Main Content with a specific maximum width (screen width > 1200px)
             'main-content-narrow'                       Full width Main Content with a percentage width (screen width > 1200px)
         -->
-        <div id="page-container" class="sidebar-o enable-page-overlay sidebar-dark side-scroll page-header-fixed main-content-narrow">
+        <div id="page-container" class="sidebar-o enable-page-overlay side-scroll page-header-fixed main-content-narrow">
             <!-- Side Overlay-->
             <aside id="side-overlay">
                 <!-- Side Header -->
