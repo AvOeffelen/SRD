@@ -14,3 +14,9 @@ yarn-error.log
 composer.json
 
 public/js/laravel.app.js
+
+public/js/dashmix.app.js
+
+public/js/plugins/jquery-sparkline/jquery.sparkline.js
+
+public/mix-manifest.json
