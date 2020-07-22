@@ -10,5 +10,6 @@
     "/css/themes/xdream.css": "/css/themes/xdream.css",
     "/css/themes/xpro.css": "/css/themes/xpro.css",
     "/css/themes/xplay.css": "/css/themes/xplay.css",
-    "/js/pages/tables_datatables.js": "/js/pages/tables_datatables.js"
+    "/js/pages/tables_datatables.js": "/js/pages/tables_datatables.js",
+    "/js/plugins/jquery-sparkline/jquery.sparkline.js": "/js/plugins/jquery-sparkline/jquery.sparkline.js"
 }

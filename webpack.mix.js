@@ -30,6 +30,8 @@ mix
     /* Page JS */
     .js('resources/js/pages/tables_datatables.js', 'public/js/pages/tables_datatables.js')
 
+    .js('resources/js/plugins/jquery-sparkline/jquery.sparkline.js', 'public/js/plugins/jquery-sparkline/jquery.sparkline.js')
+
     /* Tools */
     .browserSync('localhost:8000')
     .disableNotifications()

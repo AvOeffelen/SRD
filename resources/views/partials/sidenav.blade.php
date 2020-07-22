@@ -46,37 +46,38 @@
                         <span class="nav-main-link-badge badge badge-pill badge-success">5</span>
                     </a>
                 </li>
-                <li class="nav-main-heading">Various</li>
                 <li class="nav-main-item{{ request()->is('pages/*') ? ' open' : '' }}">
                     <a class="nav-main-link nav-main-link-submenu" data-toggle="submenu" aria-haspopup="true" aria-expanded="true" href="#">
-                        <i class="nav-main-link-icon fa fa-lightbulb"></i>
-                        <span class="nav-main-link-name">Examples</span>
+                        <i class="nav-main-link-icon fa fa-terminal"></i>
+                        <span class="nav-main-link-name">Requests</span>
                     </a>
                     <ul class="nav-main-submenu">
                         <li class="nav-main-item">
                             <a class="nav-main-link{{ request()->is('pages/datatables') ? ' active' : '' }}" href="/pages/datatables">
-                                <span class="nav-main-link-name">DataTables</span>
+                                <i class="nav-main-link-icon fa fa-question"></i>
+                                <span class="nav-main-link-name">Changes</span>
                             </a>
                         </li>
                         <li class="nav-main-item">
                             <a class="nav-main-link{{ request()->is('pages/slick') ? ' active' : '' }}" href="/pages/slick">
-                                <span class="nav-main-link-name">Slick Slider</span>
+                                <i class="nav-main-link-icon fa fa-thumbs-up"></i>
+                                <span class="nav-main-link-name">Approved</span>
                             </a>
                         </li>
                         <li class="nav-main-item">
                             <a class="nav-main-link{{ request()->is('pages/blank') ? ' active' : '' }}" href="/pages/blank">
-                                <span class="nav-main-link-name">Blank</span>
+                                <i class="nav-main-link-icon fa fa-bug"></i>
+                                <span class="nav-main-link-name">Bugs</span>
                             </a>
                         </li>
                     </ul>
                 </li>
-                <li class="nav-main-heading">More</li>
-                <li class="nav-main-item">
-                    <a class="nav-main-link" href="/">
-                        <i class="nav-main-link-icon fa fa-globe"></i>
-                        <span class="nav-main-link-name">Landing</span>
-                    </a>
-                </li>
+{{--                <li class="nav-main-heading">More</li>--}}
+{{--                <li class="nav-main-item">--}}
+{{--                    <a class="nav-main-link" href="/">--}}
+{{--                        <span class="nav-main-link-name">Requests</span>--}}
+{{--                    </a>--}}
+{{--                </li>--}}
             </ul>
         </div>
         <!-- END Side Navigation -->
