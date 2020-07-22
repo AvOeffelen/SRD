@@ -12,3 +12,5 @@ npm-debug.log
 yarn-error.log
 
 composer.json
+
+public/js/laravel.app.js
