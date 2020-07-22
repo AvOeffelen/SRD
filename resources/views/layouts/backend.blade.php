@@ -89,7 +89,7 @@
                 <div class="content py-0">
                     <div class="row font-size-sm">
                         <div class="col-sm-6 order-sm-2 mb-1 mb-sm-0 text-center text-sm-right font-w300">
-                            Created with <i class="fa fa-1x fa-heart text-primary"></i> by <a class="font-w600" href="https://www.rmnddesign.com" target="_blank">Rmnd Design</a>
+                            Created with <i class="fa fa-1x fa-heart text-primary font-w500"></i> by <a class="font-w600" href="https://www.rmnddesign.com" target="_blank">Rmnd Design</a>
                         </div>
                         <div class="col-sm-6 order-sm-1 text-center text-sm-left">
                             <a href="https://www.rmnddesign.com" target="_blank">Service Request Dashboard</a> &copy; <span data-toggle="year-copy" class="font-w300"></span>
