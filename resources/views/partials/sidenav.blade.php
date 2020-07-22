@@ -2,7 +2,7 @@
     <div class="bg-header-dark">
         <div class="content-header bg-white-10">
             <!-- Logo -->
-            <a class="font-w400 font-size-sm text-white tracking-wide" href="/">
+            <a class="font-w300 font-size-sm text-white tracking-wide" href="/">
                             <span class="smini-visible">
                                 D<span class="opacity-75">x</span>
                             </span>
@@ -42,14 +42,14 @@
                 <li class="nav-main-item">
                     <a class="nav-main-link{{ request()->is('dashboard') ? ' active' : '' }}" href="/dashboard">
                         <i class="nav-main-link-icon fa fa-location-arrow"></i>
-                        <span class="nav-main-link-name">Dashboard</span>
+                        <span class="nav-main-link-name font-w300">Dashboard</span>
                         <span class="nav-main-link-badge badge badge-pill badge-success">5</span>
                     </a>
                 </li>
                 <li class="nav-main-item{{ request()->is('pages/*') ? ' open' : '' }}">
                     <a class="nav-main-link nav-main-link-submenu" data-toggle="submenu" aria-haspopup="true" aria-expanded="true" href="#">
                         <i class="nav-main-link-icon fa fa-terminal"></i>
-                        <span class="nav-main-link-name">Requests</span>
+                        <span class="nav-main-link-name font-w300">Requests</span>
                     </a>
                     <ul class="nav-main-submenu">
                         <li class="nav-main-item">
