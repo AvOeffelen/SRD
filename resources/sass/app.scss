@@ -6,3 +6,9 @@
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+
+
+
+table#any-table .flip-list-move {
+    transition: transform 1s;
+}

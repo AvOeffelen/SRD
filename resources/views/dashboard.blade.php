@@ -13,7 +13,8 @@
     <div class="content">
         <div class="row justify-content-center">
             <div class="col-6 col-md-3 col-xl-2 col-lg-3">
-                <a class="block block-rounded block-bordered block-link-shadow text-center" href="javascript:void(0)" data-toggle="click-ripple">
+                <a class="block block-rounded block-bordered block-link-shadow text-center" href="javascript:void(0)"
+                   data-toggle="click-ripple">
                     <div class="block-content text-muted">
                         <p class="my-2">
                             <i class="text-primary fa fa-archive fa-2x text-muted"></i>
@@ -23,7 +24,8 @@
                 </a>
             </div>
             <div class="col-6 col-md-3 col-xl-2 col-lg-3">
-                <a class="block block-rounded block-bordered block-link-shadow text-center" href="javascript:void(0)" data-toggle="click-ripple">
+                <a class="block block-rounded block-bordered block-link-shadow text-center" href="javascript:void(0)"
+                   data-toggle="click-ripple">
                     <div class="block-content text-muted">
                         <p class="my-2">
                             <i class="text-primary fa fa-terminal fa-2x text-muted"></i>
@@ -33,7 +35,8 @@
                 </a>
             </div>
             <div class="col-6 col-md-3 col-xl-2 col-lg-3">
-                <a class="block block-rounded block-bordered block-link-shadow text-center" href="javascript:void(0)" data-toggle="click-ripple">
+                <a class="block block-rounded block-bordered block-link-shadow text-center" href="javascript:void(0)"
+                   data-toggle="click-ripple">
                     <div class="block-content text-muted">
                         <p class="my-2">
                             <i class="text-primary fa fa-thumbs-up fa-2x text-muted"></i>
@@ -43,7 +46,8 @@
                 </a>
             </div>
             <div class="col-6 col-md-3 col-xl-2 col-lg-3">
-                <a class="block block-rounded block-bordered block-link-shadow text-center" href="javascript:void(0)" data-toggle="click-ripple">
+                <a class="block block-rounded block-bordered block-link-shadow text-center" href="javascript:void(0)"
+                   data-toggle="click-ripple">
                     <div class="block-content text-muted">
                         <p class="my-2">
                             <i class="text-primary fa fa-user-tie fa-2x text-muted"></i>
@@ -138,50 +142,50 @@
                                 </tr>
                                 </thead>
                                 <tbody>
-                                    <tr>
-                                        <td>
-                                            <a class="font-w600" href="javascript:void(0)">1254</a>
-                                        </td>
-                                        <td>
-                                            <strong>Roy</strong>
-                                        </td>
-                                        <td>
-                                            <strong>Obrien</strong>
-                                        </td>
-                                        <td>
-                                            <span class="text-muted font-italic">today</span>
-                                        </td>
-                                        <td>
-                                            <span class="text-muted font-italic">today</span>
-                                        </td>
-                                        <td>
-                                            <button class="btn btn-sm btn-light" href="javascript:void(0)">
-                                                <i class="fa fa-wrench text-danger mr-1"></i>
-                                            </button>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a class="font-w600" href="javascript:void(0)">1254</a>
-                                        </td>
-                                        <td>
-                                            <strong>Roy</strong>
-                                        </td>
-                                        <td>
-                                            <strong>Obrien</strong>
-                                        </td>
-                                        <td>
-                                            <span class="text-muted font-italic">today</span>
-                                        </td>
-                                        <td>
-                                            <span class="text-muted font-italic">today</span>
-                                        </td>
-                                        <td>
-                                            <button class="btn btn-sm btn-light" href="javascript:void(0)">
-                                                <i class="fa fa-wrench text-danger mr-1"></i>
-                                            </button>
-                                        </td>
-                                    </tr>
+                                <tr>
+                                    <td>
+                                        <a class="font-w600" href="javascript:void(0)">1254</a>
+                                    </td>
+                                    <td>
+                                        <strong>Roy</strong>
+                                    </td>
+                                    <td>
+                                        <strong>Obrien</strong>
+                                    </td>
+                                    <td>
+                                        <span class="text-muted font-italic">today</span>
+                                    </td>
+                                    <td>
+                                        <span class="text-muted font-italic">today</span>
+                                    </td>
+                                    <td>
+                                        <button class="btn btn-sm btn-light" href="javascript:void(0)">
+                                            <i class="fa fa-wrench text-danger mr-1"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a class="font-w600" href="javascript:void(0)">1254</a>
+                                    </td>
+                                    <td>
+                                        <strong>Roy</strong>
+                                    </td>
+                                    <td>
+                                        <strong>Obrien</strong>
+                                    </td>
+                                    <td>
+                                        <span class="text-muted font-italic">today</span>
+                                    </td>
+                                    <td>
+                                        <span class="text-muted font-italic">today</span>
+                                    </td>
+                                    <td>
+                                        <button class="btn btn-sm btn-light" href="javascript:void(0)">
+                                            <i class="fa fa-wrench text-danger mr-1"></i>
+                                        </button>
+                                    </td>
+                                </tr>
                                 </tbody>
                             </table>
                         </div>
@@ -190,13 +194,7 @@
             </div>
         </div>
         <!-- END Page Content -->
-        @endsection
-        @section('js_after')
+@endsection
+@section('js_after')
 
-            <script src="{{ mix('/js/plugins/jquery-sparkline/jquery.sparkline.js') }}"></script>
-
-            <!-- Page JS Helpers (jQuery Sparkline Plugin) -->
-            <script>jQuery(function () {
-                    Dashmix.helpers('sparkline');
-                });</script>
 @endsection
