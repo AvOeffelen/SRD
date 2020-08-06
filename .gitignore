@@ -20,3 +20,5 @@ public/js/dashmix.app.js
 public/js/plugins/jquery-sparkline/jquery.sparkline.js
 
 public/mix-manifest.json
+
+storage/debugbar/
