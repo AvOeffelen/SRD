@@ -73,11 +73,12 @@
                     </ul>
                 </li>
 {{--                <li class="nav-main-heading">More</li>--}}
-{{--                <li class="nav-main-item">--}}
-{{--                    <a class="nav-main-link" href="/">--}}
-{{--                        <span class="nav-main-link-name">Requests</span>--}}
-{{--                    </a>--}}
-{{--                </li>--}}
+                <li class="nav-main-item">
+                    <a class="nav-main-link{{ request()->is('products') ? ' active' : '' }}" href="{{route('product.show')}}">
+                        <i class="nav-main-link-icon fa fa-list"></i>
+                        <span class="nav-main-link-name font-w300">Products</span>
+                    </a>
+                </li>
             </ul>
         </div>
         <!-- END Side Navigation -->

@@ -14,6 +14,9 @@ import 'popper.js';
 import 'jquery.appear';
 import 'jquery-scroll-lock';
 
+
+window.axios = require('axios');
+
 // ..and assign to window the ones that need it
 window.$ = window.jQuery  = jQuery;
 window.SimpleBar          = SimpleBar;
