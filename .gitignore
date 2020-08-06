@@ -14,3 +14,5 @@ yarn-error.log
 composer.json
 
 public/js/laravel.app.js
+
+storage/debugbar/
