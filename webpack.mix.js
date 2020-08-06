@@ -28,7 +28,8 @@ mix
     .js('resources/js/dashmix/app.js', 'public/js/dashmix.app.js')
 
     /* Page JS */
-    .js('resources/js/pages/tables_datatables.js', 'public/js/pages/tables_datatables.js')
+    // .js('resources/js/pages/tables_datatables.js', 'public/js/pages/tables_datatables.js')
+
 
     /* Tools */
     .browserSync('localhost:8000')

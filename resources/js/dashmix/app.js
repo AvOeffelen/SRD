@@ -1,12 +1,27 @@
-/*
- *  Document   : app.js
- *  Author     : pixelcave
- *  Description: Main entry point
- *
- */
 
 // Import global dependencies
 import './bootstrap';
+
+window.Vue = require('vue');
+import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
+
+import 'bootstrap-vue/dist/bootstrap-vue.css'
+
+// Install BootstrapVue
+Vue.use(BootstrapVue)
+// Optionally install the BootstrapVue icon components plugin
+Vue.use(IconsPlugin)
+
+
+
+//ExampleComponent -- example-component
+const files = require.context('../', true, /\.vue$/i)
+files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
+
+const app = new Vue({
+    el: '#main-container',
+});
+
 
 // Import required modules
 import Template from './modules/template';

@@ -11,8 +11,18 @@ Homestead.yaml
 npm-debug.log
 yarn-error.log
 
-composer.json
+composer.lock
 
 public/js/laravel.app.js
+
+public/js/dashmix.app.js
+
+public/js/plugins/jquery-sparkline/jquery.sparkline.js
+
+public/mix-manifest.json
+
+package-lock.json
+
+.idea/
 
 storage/debugbar/

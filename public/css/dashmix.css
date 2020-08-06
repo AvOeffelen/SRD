@@ -4202,8 +4202,8 @@ input[type=button].btn-block {
   color: #adb5bd;
   pointer-events: none;
   cursor: auto;
-  background-color: #fff;
-  border-color: #fff;
+  background-color: #f0f3f8;
+  border-color: #f0f3f8;
 }
 
 .pagination-lg .page-link {

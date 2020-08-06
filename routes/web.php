@@ -21,3 +21,16 @@ Route::match(['get', 'post'], '/dashboard', function(){
 Route::view('/pages/slick', 'pages.slick');
 Route::view('/pages/datatables', 'pages.datatables');
 Route::view('/pages/blank', 'pages.blank');
+
+
+Route::get('/products','ProductController@show')->name('product.show');
+
+
+//,'middleware'=>['web']
+Route::group(['prefix' => 'axios', 'namespace' => 'Axios'], function () {
+    Route::post('/product/store','ProductController@store')->name('axios.product.store');
+    Route::get('product/get/all','ProductController@getAll')->name('axios.product.get.all');
+
+    Route::delete('product/{product}','ProductController@removeProduct')->name('axios.product.delete');
+
+});
