@@ -25,6 +25,8 @@ Route::view('/pages/blank', 'pages.blank');
 
 Route::get('/products','ProductController@show')->name('product.show');
 
+Route::get('/customer','UserController@show')->name('customer.show');
+
 
 //,'middleware'=>['web']
 Route::group(['prefix' => 'axios', 'namespace' => 'Axios'], function () {
@@ -32,5 +34,10 @@ Route::group(['prefix' => 'axios', 'namespace' => 'Axios'], function () {
     Route::get('product/get/all','ProductController@getAll')->name('axios.product.get.all');
 
     Route::delete('product/{product}','ProductController@removeProduct')->name('axios.product.delete');
+
+});
+
+
+Route::group(['prefix' => 'axios/customer', 'namespace' => 'Axios'], function () {
 
 });

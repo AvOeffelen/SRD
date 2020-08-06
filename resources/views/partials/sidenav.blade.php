@@ -79,6 +79,13 @@
                         <span class="nav-main-link-name font-w300">Products</span>
                     </a>
                 </li>
+{{--                <li class="nav-main-heading">More</li>--}}
+                <li class="nav-main-item">
+                    <a class="nav-main-link{{ request()->is('customers') ? ' active' : '' }}" href="{{route('customer.show')}}">
+                        <i class="nav-main-link-icon fa fa-user-circle"></i>
+                        <span class="nav-main-link-name font-w300">Customer</span>
+                    </a>
+                </li>
             </ul>
         </div>
         <!-- END Side Navigation -->

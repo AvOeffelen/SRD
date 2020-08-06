@@ -13,6 +13,8 @@ Vue.use(BootstrapVue)
 Vue.use(IconsPlugin)
 
 
+import VueFlatPickr from 'vue-flatpickr-component';
+Vue.use(VueFlatPickr);
 
 //ExampleComponent -- example-component
 const files = require.context('../', true, /\.vue$/i)
